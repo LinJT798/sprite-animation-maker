@@ -1,0 +1,48 @@
+{
+  "prompt_enhancement": {
+    "template": "A high quality, detailed image of {user_input}, studio lighting, white background, full body view, character design, suitable for animation, make sure the entire body is visible",
+    "model": "gpt-4.1"
+  },
+  "image_generation": {
+    "model": "gpt-image-1",
+    "count": 4,
+    "size": "auto",
+    "quality": "high",
+    "output_compression": 100,
+    "output_format": "png"
+  },
+  "animation_presets": {
+    "jump": "角色原地上下跳跃，充满活力的跳跃动作，露出全身",
+    "run": "角色原地向前奔跑，动态的跑步动画，露出全身",
+    "walk": "角色原地正常行走，步伐平稳，露出全身",
+    "wave": "角色原地友好地挥手，打招呼的动作，露出全身",
+    "rotate": "角色原地360度旋转，旋转动作，露出全身",
+    "idle": "角色原地站立不动，原地待机，露出全身"
+  },
+  "video_settings": {
+    "model": "doubao-seedance-1-0-pro-250528",
+    "duration": 5,
+    "fps": 24,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "camera_follow": true
+  },
+  "rembg_models": {
+    "u2net": "通用模型，适合大多数场景",
+    "u2netp": "轻量级模型，处理速度快",
+    "u2net_human_seg": "人物分割模型，适合真人照片",
+    "u2net_cloth_seg": "服装分割模型",
+    "isnet-anime": "动漫角色专用模型，高精度分割",
+    "isnet-general-use": "通用高精度模型"
+  },
+  "output_paths": {
+    "images": "./output/images/",
+    "videos": "./output/videos/",
+    "sprites": "./output/sprites/"
+  },
+  "sprite_sheet": {
+    "max_width": 16384,
+    "padding": 2,
+    "background_color": [0, 0, 0, 0]
+  }
+}

@@ -1,0 +1,22 @@
+# Core dependencies
+openai>=1.0.0
+volcengine-python-sdk[ark]>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Image and video processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Background removal
+rembg>=2.0.50
+
+# Additional dependencies for rembg models
+onnxruntime>=1.16.0
+scikit-image>=0.21.0
+tqdm>=4.65.0
+scipy>=1.11.0
+
+# GUI dependencies (for animation preview)
+# Note: tkinter is included with Python standard library
