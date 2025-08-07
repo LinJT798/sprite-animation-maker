@@ -141,11 +141,7 @@ ARK_API_KEY=your_volcano_engine_api_key_here
   <p><em>自动生成的精灵图表，可直接导入游戏引擎</em></p>
 </div>
 
-### 完整工作流程
-<div align="center">
-  <img src="docs/images/workflow.gif" width="800" alt="工作流程">
-  <p><em>从文字到动画的完整流程演示</em></p>
-</div>
+
 
 ## ⚙️ 配置选项
 
@@ -223,10 +219,25 @@ animation-generator/
 
 ## 🙏 致谢
 
-- OpenAI 提供的强大AI模型
-- 火山引擎的视频生成技术
-- Rembg 开源背景移除工具
+- [OpenAI](https://openai.com/) 提供的强大AI模型（GPT-4.1, DALL-E）
+- [火山引擎](https://www.volcengine.com/) 的豆包视频生成技术
+- [Rembg](https://github.com/danielgatis/rembg) - 优秀的开源背景移除工具
+  - 基于 U²-Net 的深度学习模型
+  - 支持多种专业模型（动漫、真人、通用等）
+  - 本项目使用 MIT 许可证兼容的版本
 - 所有贡献者和用户的支持
+
+## 📚 开源依赖
+
+本项目使用了以下主要开源库：
+
+- **[Rembg](https://github.com/danielgatis/rembg)** (MIT License) - AI背景移除
+- **[OpenCV](https://opencv.org/)** (Apache 2.0) - 视频处理
+- **[Pillow](https://python-pillow.org/)** (HPND) - 图像处理
+- **[NumPy](https://numpy.org/)** (BSD) - 数值计算
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** (PSF) - GUI界面
+
+详细的依赖列表请查看 [requirements.txt](requirements.txt)
 
 ---
 
